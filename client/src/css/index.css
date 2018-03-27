@@ -1,0 +1,31 @@
+/* Font(s)! */
+@font-face {
+    font-family: body-content;
+    src: url(../fonts/CaviarDreams.ttf);
+}
+
+/* General ...styles... and... y'know.... */
+body {
+    color: #121212;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+body p, body h5, body h3, .desktop-header h1:first-child {
+    font-family: body-content;
+    font-weight: bold;
+}
+
+.logo-container {
+    margin: auto;
+    width: 40%;
+}
+
+.logo-container .site-logo {
+    display: block;
+    margin: auto;
+}
+
+hr {
+    width: 70%;
+}

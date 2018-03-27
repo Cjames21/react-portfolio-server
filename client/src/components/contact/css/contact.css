@@ -1,0 +1,58 @@
+/* General Styles */
+body .desktop-header {
+  text-align: center;
+  margin-bottom: 160px;
+  margin-top: 100px!important;
+}
+.desktop-header hr {
+  padding-top: 40px;
+}
+
+.desktop-header h1 {
+  font-size: 2em;
+}
+
+.contact-header-container {
+  height: 250px;
+  width: 30%!important;
+  padding-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.contact-header-container h1 {
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 6em;
+}
+
+.submit-button {
+    color: white;
+    background-color: #121212;
+    height: 50px;
+    width: 80px;
+    font-family: body-content;
+    font-weight: bold;
+}
+
+.contact-info .footer-container .columns {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width:601px) {
+    body .contact-container > div {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .contact-container hr {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contact-container form {
+        margin-bottom: 40px;
+    }
+}

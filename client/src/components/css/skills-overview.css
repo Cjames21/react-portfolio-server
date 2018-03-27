@@ -1,0 +1,14 @@
+
+.hire-me-icon-container img {
+    border-radius: 50%;
+}
+
+.section-container .hire-me-icon-container {
+    text-align: center;
+}
+
+.section-container .hire-me-icon {
+    font-size: 13em;
+    position: relative;
+    top: 20px;
+}

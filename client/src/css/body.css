@@ -1,0 +1,13 @@
+.center-text {
+  text-align: center;
+}
+
+.center-element {
+  margin: 0 auto;
+}
+
+.index hr {
+  width: 30%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}

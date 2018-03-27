@@ -1,0 +1,27 @@
+.footer-container {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.footer-container h5 span {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.footer-container h5 span:hover {
+  cursor: pointer;
+}
+
+.footer-container div {
+    margin: 0 auto;
+}
+
+.footer-container .footer-social-buttons .menu  {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  padding-left: 40%;
+}

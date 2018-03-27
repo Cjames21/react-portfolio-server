@@ -1,0 +1,12 @@
+.social-buttons ul {
+  font-size: 1.8em;
+  padding-right: 55px;
+}
+
+.social-buttons ul:hover {
+  cursor: pointer;
+}
+
+.social-buttons ul li {
+  padding-right: 8px;
+}

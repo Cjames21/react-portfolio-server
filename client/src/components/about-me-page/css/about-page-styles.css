@@ -1,0 +1,63 @@
+/* General styles */
+
+
+
+
+/* About me page header */
+.about-header-content {
+  margin-bottom: 60px;
+}
+
+.about-header-title {
+  padding-bottom: 40px;
+}
+
+.header hr {
+  position: relative;
+  width: 15%;
+  margin-right: 85%;
+  margin-bottom: 35px;
+  float: left;
+}
+
+.about-header-right p:first-child {
+  padding-top: 50px;
+}
+
+ /* About header Large Image styles */
+.large-img {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+
+
+
+
+/* About me page subsection styles */
+.about-page-subsection {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.about-page-subsection .subsection-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subsection-subcontent {
+  font-size: 1.2em;
+  width: 60%;
+  margin: 0 auto !important;
+  margin-top: 40px;
+}
+
+/* Subsection image panel and images styles */
+.panel-container {
+  padding: 5px !important;
+}
+.panel-img {
+  padding: 10px;
+  background-color: #1e88e5;
+}
