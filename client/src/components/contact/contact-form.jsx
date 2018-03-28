@@ -24,17 +24,20 @@ export default class ContactForm extends React.Component {
     this.setState(state);
   }
 
-  onSubmit = (e) => {
-    fetch('/email_author', {
+  onSubmit() {
+    alert('button clicked');
+    fetch('/email_author',
+    {
       fName: this.state.fName,
       lName: this.state.lName,
       phone: this.state.phoneNumber,
       email: this.state.email,
       projType: this.state.projType,
       projDesc: this.state.projDesc,
-    }).then(function(response) {
-        console.log(response.json());
-      });
+    })
+    .then(function(response) {
+      console.log(response.json());
+    });
   }
 
   render() {
@@ -45,7 +48,7 @@ export default class ContactForm extends React.Component {
           and I'll be in touch with you as soon as possible!
         </p>
         <br />
-        <form action="contact_form_submission.php" method="POST" className="contact-form" id="contact-form">
+        <form action="" className="contact-form" id="contact-form">
           <label htmlFor="fName">First Name: </label>
           <input value={this.state.fName} onChange={this.onChange} name="fName" type="text" />
 
