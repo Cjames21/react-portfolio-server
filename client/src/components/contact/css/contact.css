@@ -16,8 +16,6 @@ body .desktop-header {
   height: 250px;
   width: 30%!important;
   padding-top: 40px;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 .contact-header-container h1 {
@@ -40,6 +38,8 @@ body .desktop-header {
   margin: 0 auto;
 }
 
+
+
 @media only screen and (min-width:601px) {
     body .contact-container > div {
         padding-left: 40px;
@@ -48,11 +48,5 @@ body .desktop-header {
 
     .contact-container hr {
         display: none;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .contact-container form {
-        margin-bottom: 40px;
     }
 }

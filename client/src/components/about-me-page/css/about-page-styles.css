@@ -57,7 +57,13 @@
 .panel-container {
   padding: 5px !important;
 }
+
 .panel-img {
   padding: 10px;
-  background-color: #1e88e5;
+  transition: padding .3s;
+  border: 1px solid black;
+}
+
+.panel-img:hover {
+  padding: 0;
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import AboutPageHeader from './about-me-page/about-me-header.jsx';
 import AboutPageSubsection from './about-me-page/about-page-subsection.jsx';
 import './about-me-page/css/about-page-styles.css';
-
+import './about-me-page/css/mobile-about-me-styles.css';
 
 
 export default class AboutMePage extends React.Component {

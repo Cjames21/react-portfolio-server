@@ -1,0 +1,14 @@
+@media screen and (max-width: 640px) {
+  .contact-header-container {
+    display: none;
+  }
+
+  body .desktop-header {
+    margin-bottom: 0;
+    margin-top: 40px !important;
+  }
+
+  body .contact-info {
+    display: none;
+  }
+}
