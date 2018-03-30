@@ -26,6 +26,14 @@ export default class TopBar extends React.Component {
                <li className="" onClick={(e) => this.navBarClicked("contact", e)}><a>CONTACT ME</a></li>
              </ul>
            </div>
+
+           <nav className="mobile-nav">
+             <ul className="menu navigation">
+               <li className="" onClick={(e) => this.navBarClicked("index", e)}><a>HOME</a></li>
+               <li className="" onClick={(e) => this.navBarClicked("about", e)}><a>ABOUT ME</a></li>
+               <li className="" onClick={(e) => this.navBarClicked("contact", e)}><a>CONTACT ME</a></li>
+             </ul>
+           </nav>
           </nav>
         );
 

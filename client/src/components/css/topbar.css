@@ -16,7 +16,7 @@ body .top-bar, .top-bar ul {
     margin-right: 60px;
 }
 
-.top-bar li a, .mobile-nav-bar li a {
+.top-bar li a {
     color: #121212;
     font-family: body-content;
     font-size: 1.2em;
@@ -41,4 +41,25 @@ body .top-bar, .top-bar ul {
 
 .top-bar .top-bar-left h4 {
     padding-top: 5px;
+}
+
+@media screen and (max-width: 640px) {
+  .top-bar-right, .top-bar-left {
+    display: none;
+  }
+
+  body .top-bar {
+    padding: 0;
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  body .top-bar .mobile-nav, body .top-bar .mobile-nav .navigation {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 0.9em;
+    text-align: center;
+  }
 }

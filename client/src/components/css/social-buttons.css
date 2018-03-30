@@ -10,3 +10,9 @@
 .social-buttons ul li {
   padding-right: 8px;
 }
+
+@media screen and (max-width: 640px) {
+  .social-buttons {
+    padding-right: 25px;
+  }
+}
