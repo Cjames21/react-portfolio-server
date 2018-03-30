@@ -8,6 +8,10 @@ body .top-bar {
   border-bottom: 1px solid black;
 }
 
+body .mobile-nav {
+  display: none;
+}
+
 body .top-bar, .top-bar ul {
     background-color: transparent !important;
 }
@@ -53,6 +57,10 @@ body .top-bar, .top-bar ul {
     border: none;
     width: 100%;
     margin-bottom: 10px;
+  }
+
+  body .mobile-nav {
+    display: block;
   }
 
   body .top-bar .mobile-nav, body .top-bar .mobile-nav .navigation {
