@@ -28,12 +28,12 @@ export default class ContactForm extends React.Component {
     alert('button clicked');
     fetch('/email_author',
     {
-      fName: this.state.fName,
-      lName: this.state.lName,
-      phone: this.state.phoneNumber,
-      email: this.state.email,
-      projType: this.state.projType,
-      projDesc: this.state.projDesc,
+      "fName": this.state.fName,
+      "lName": this.state.lName,
+      "phone": this.state.phoneNumber,
+      "email": this.state.email,
+      "projType": this.state.projType,
+      "projDesc": this.state.projDesc,
     })
     .then(function(response) {
       console.log(response.json());

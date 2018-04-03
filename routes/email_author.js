@@ -1,9 +1,9 @@
 var express = require('express');
-var app = express();
-var nodemailer = require('nodemailer');
+var router = express.Router();
 
-
-app.post('/', function(req, res) {
+router.post('/send_mail', function(req, res) {
   console.log(req);
   res.send(req);
 });
+
+module.exports = router;
