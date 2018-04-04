@@ -1,31 +1,18 @@
 {
-  "name": "react-portfolio-server",
-  "version": "1.0.0",
-  "description": "Small back end for sending emails to the author of the website. This website will make use of express to make working with web services easier.",
-  "main": "app.js",
-  "scripts": {
-    "test": "test_this"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Cjames21/react-portfolio-server.git"
-  },
-  "keywords": [
-    "CJames",
-    "Portfolio",
-    "backend",
-    "back",
-    "end",
-    "web",
-    "dev"
-  ],
-  "author": "Charles James",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Cjames21/react-portfolio-server/issues"
-  },
-  "homepage": "https://github.com/Cjames21/react-portfolio-server#readme",
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "express": "^4.16.3"
-  }
+    "axios": "^0.18.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:3001"
 }
