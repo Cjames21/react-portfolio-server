@@ -7,6 +7,7 @@ export default class ContactForm extends React.Component {
     super();
 
     this.onChange = this.onChange.bind(this);
+    this.onSubmit = this.onSubmit.bind(this);
 
     this.state = {
       fName: '',
@@ -35,8 +36,12 @@ export default class ContactForm extends React.Component {
       "projType": this.state.projType,
       "projDesc": this.state.projDesc,
     })
-    .then(function(response) {
-      console.log(response.json());
+    .then((resp) => resp.json())
+    .then(function(data) {
+      alert(data);
+    })
+    .catch(function() {
+      alert('Error! Something went wrong!');
     });
   }
 
@@ -48,7 +53,7 @@ export default class ContactForm extends React.Component {
           and I'll be in touch with you as soon as possible!
         </p>
         <br />
-        <form action="" className="contact-form" id="contact-form">
+        <form action="/email_user" className="contact-form" id="contact-form">
           <label htmlFor="fName">First Name: </label>
           <input value={this.state.fName} onChange={this.onChange} name="fName" type="text" />
 
@@ -67,7 +72,7 @@ export default class ContactForm extends React.Component {
           <label htmlFor="projDesc">Project Description: </label>
           <textarea value={this.state.projDesc} onChange={this.onChange} name="projDesc" type="text" placeholder="Please provide a brief description of the project you have in mind..." />
 
-          <button id="submit" type="submit" onSubmit={this.onSubmit} name="submit" className="submit-button">Submit</button>
+          <button id="submit" type="submit" name="submit" className="submit-button">Submit</button>
         </form>
       </div>
     );
