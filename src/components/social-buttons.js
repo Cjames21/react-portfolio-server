@@ -1,7 +1,6 @@
 import React from 'react';
 import './css/social-buttons.css';
 
-
 export default class SocialButtons extends React.Component {
 
   constructor() {
@@ -12,14 +11,16 @@ export default class SocialButtons extends React.Component {
   }
 
   sendTo(event) {
-    console.log(this.id)
-    return alert("Button clicked");
+    console.log(this.id);
+    alert('Sorry, this didn"t seem to work, please try again later.');
+
     // Depending on event.target.
   }
 
   emailUser() {
-    return alert("Button clicked");
-    // Either end user to the contact page, or open up a modal and let them
+    alert('Button clicked');
+
+    // Either send user to the contact page, or open up a modal and let them
     // fill out that form
   }
 

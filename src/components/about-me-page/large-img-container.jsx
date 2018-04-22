@@ -7,7 +7,7 @@ export default class LargeImageContainer extends React.Component {
   render() {
     return (
       <div className="large-img">
-        <img src={require('../../img/img-placeholder.jpg')} alt="Big selfie of yours truly!" />
+        <img src={require('../../img/selfie.png')} alt="Big selfie of yours truly!" />
       </div>
     );
   }
