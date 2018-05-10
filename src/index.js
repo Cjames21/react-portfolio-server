@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import Body from './body.js';
 import './css/index.css';
@@ -15,8 +14,6 @@ class App extends React.Component {
 //----------------------------------------------------------------------
 // REACT DOM RENDER
 ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
+  <App />,
   document.getElementById('root')
 );
