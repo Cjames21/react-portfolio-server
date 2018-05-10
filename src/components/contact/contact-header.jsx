@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 export default class ContactHeader extends React.Component {
 
   render() {
