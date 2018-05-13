@@ -10,6 +10,7 @@ body .desktop-header {
 
 .desktop-header h1 {
   font-size: 4em;
+  margin-bottom: 20px;
 }
 
 .desktop-header h3 {

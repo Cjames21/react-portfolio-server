@@ -1,0 +1,45 @@
+@media screen and (max-width: 640px) {
+  body .desktop-topbar {
+    display: none;
+  }
+
+  body .top-bar {
+    padding-left: 0;
+
+  }
+
+  .mobile-topbar {
+    padding-top: 15px;
+    max-height: 70px;
+    background-color: black !important;
+    color: white!important;
+    margin: 0;
+  }
+
+  .mobile-topbar .menu-button-container,
+  .mobile-topbar .site-title,
+  .mobile-topbar .cart-container {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .mobile-topbar .menu-button-container {
+    padding: 3px;
+    width: 2em;
+    font-size: 1.3em;
+  }
+
+  .mobile-topbar .site-title {
+    position: relative;
+    left: 5%;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .mobile-topbar .cart-container {
+    float: right;
+    padding: 8px;
+  }
+}

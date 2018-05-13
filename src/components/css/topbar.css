@@ -27,16 +27,16 @@ body .top-bar, .top-bar ul {
     font-weight: 500;
 }
 
+.top-bar-right .navigation li {
+  transition: border 0.9s;
+}
+
+.top-bar-right .navigation li:hover {
+  border: 1px solid black;
+}
+
 .mobile-nav-bar {
     margin-top: 15px;
-}
-
-.mobile-nav-bar li a:hover {
-    text-decoration: underline;
-}
-
-.top-bar li:hover {
-    text-decoration: underline;
 }
 
 .top-bar .top-bar-left:hover {

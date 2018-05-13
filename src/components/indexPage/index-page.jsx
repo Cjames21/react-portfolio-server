@@ -6,7 +6,7 @@ import SkillsOverview from '../skills-overview.js';
 export default class IndexPage extends React.Component {
   render() {
     return (
-      <div>
+      <div style={{ padding: 16 + 'px' }}>
         <Header />
         <About />
         <SkillsOverview />

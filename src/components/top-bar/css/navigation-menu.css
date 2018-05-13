@@ -1,0 +1,36 @@
+body .mobile-nav-menu {
+  position: absolute;
+  float: left;
+  top: 58px;
+  width: 60%;
+  background-color: black !important;
+  transition: transform 300ms ease-in-out 50ms;
+  overflow-x: hidden;
+  margin-left: 0 !important;
+}
+
+body .show-nav-menu {
+  transform: translate(680px, 0px);
+}
+
+.nav-list li {
+  width: 100%;
+  background-color: black;
+  display: block;
+  border-bottom: 1px solid grey;
+    line-height: 2em;
+    display: block;
+    padding-left: 8px;
+}
+
+.nav-list {
+  border: 1px solid grey;
+}
+
+.nav-list li a {
+  color: white;
+}
+
+.nav-list li:active {
+  background-color: #525252;
+}
