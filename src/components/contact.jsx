@@ -10,7 +10,7 @@ export default class ContactPage extends React.Component {
   render() {
     return (
       <div>
-        <ContactInfoContainer />
+        <ContactHeader />
       </div>
 
     );

@@ -1,28 +1,18 @@
 import React from 'react';
 
-
 export default class ContactHeader extends React.Component {
 
   render() {
     return (
       <div className="row desktop-header">
-        <h1>Great service is just a click or a call away!</h1>
-        <hr />
-        <br />
-        <div className="large-4 medium-4 small-12 columns contact-header-container">
-          <h1><i className="fa fa-user"></i></h1>
-          <p>UI/UX</p>
-          <hr />
-        </div>
-        <div className="large-4 medium-4 small-12 columns contact-header-container">
-          <h1><i className="fa fa-mobile"></i></h1>
-          <p>Responsive</p>
-          <hr />
-        </div>
-        <div className="large-4 medium-4 small-12 columns contact-header-container">
-          <h1><i className="fab fa-react"></i></h1>
-          <p>Modern</p>
-          <hr />
+        <div className="large-9 medium-9 small-12 columns">
+          <h1>Have a project you think I could help with?</h1>
+          <h3>
+            I would love to hear about
+            your ideas! Please send them to charlestdjames1@gmail.com. If you
+            prefer to talk over the phone, give me a call at (613) 803 6794. I'll
+            do my best to get back to you today!
+          </h3>
         </div>
       </div>
     );

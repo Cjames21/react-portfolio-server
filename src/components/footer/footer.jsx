@@ -6,13 +6,13 @@ import './css/footer.css';
 export default class Footer extends React.Component {
 
   render() {
-    return(
+    return (
       <div className="row footer-container">
         <div className="large-4  small-12 columns">
 			       <h5>charlestdjames1@gmail.com</h5>
 		    </div>
 		    <div className="large-4 small-12 columns">
-          <div className="footer-social-buttons">            
+          <div className="footer-social-buttons">
             <SocialButtons />
           </div>
 		    </div>

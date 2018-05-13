@@ -7,7 +7,7 @@ import './css/skills-overview.css';
 export default class SkillsOverview extends React.Component {
 
   render() {
-    return(
+    return (
       <div className="row section-container">
         <SkillsHeader />
         <SkillsContentContainer />
