@@ -4,8 +4,9 @@ export default class Projects extends React.Component {
 
   render() {
     return (
-      <div>
-        <h1>Hello!</h1>
+      <div style={{ padding: 16 + 'px' }}>
+        <h1>Hello! This page is currently under
+          construction. Please check back soon!</h1>
       </div>
     );
   }
